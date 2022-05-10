@@ -1,0 +1,48 @@
+#paginaHome {
+	background-color:#ededed;
+	border:solid red 2px;
+	width:1420px;
+	margin:auto;
+    font-family: verdana, sans-serif;
+}
+#paginaHome header {
+	background-color:blue;
+	color:white;
+	text-align:center;
+}
+#paginaHome section {
+	height:500px;
+	width:100%;
+    font-weight: 800;
+}
+
+#paginaHome section nav{
+	background-color:rgb(174, 0, 255);
+	width:240px;
+	float:left;
+	height:500px;
+    color: white;
+}
+
+#paginaHome section #paginaCentral {
+    background-image: url(./img/fundo.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#paginaHome section #paginaCentral {
+	width:1180px;
+	float:right;
+	height:500px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+#paginaHome footer{
+	background-color:blue;
+	color:white;
+	text-align:center;
+    font-weight: 800;
+}
