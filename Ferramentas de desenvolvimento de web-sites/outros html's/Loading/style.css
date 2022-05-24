@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+.scanner h1{
+    color: #252839;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.scanner h2{
+    color: #252839;
+    font-size: 4rem;
+    position: absolute;
+}
+
+.scanner h1:before{
+    content: "Loading...";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0;
+    height: 100%;
+    border-right: 0.50pc solid #17FEFF;
+    overflow: hidden;
+    color: #17FEFF;
+    animation: load 4s linear infinite;
+}
+
+.scanner h2:before{
+    content: "Carregando_o_texto,_por_favor,_aguarde...";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0;
+    height: 100%;
+    border-right: 0.5pc solid #17FEFF;
+    overflow: hidden;
+    color: #17FEFF;
+    animation: load 6s linear infinite;
+}
+
+
+@keyframes load {
+    0%, 10%, 100%{
+        width: 0%;
+    }
+    60%, 80%{
+        width: 100%;
+    }
+}
