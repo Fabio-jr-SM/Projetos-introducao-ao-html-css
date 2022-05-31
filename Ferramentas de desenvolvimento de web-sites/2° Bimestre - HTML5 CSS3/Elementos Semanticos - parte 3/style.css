@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+.principal{
+    background-color: #ccc;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+header{
+    background-color: #fff;
+    width: 1200px;
+    height: 200px;
+}
+
+nav{
+    background-color: #fff;
+    margin-top: 10px;
+    width: 1200px;
+    height: 50px;
+}
+
+section{
+    background-color: #fff;
+    margin-top: 10px;
+    height: 500px;
+    width: 890px;
+}
+
+aside{
+    background-color: #fff;
+    margin-top: -500px;
+    height: 500px;
+    width: 300px;
+    float: right;
+}
+
+footer{
+    background-color: #fff;
+    margin-top: 10px;
+    height: 30px;
+    clear: both;
+}
+
+p{
+    padding: 5px;
+}
