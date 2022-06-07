@@ -19,7 +19,7 @@
 
 
 html {
-    font-family: "Lucida Sans", sans-serif;
+    font-family: "verdana", sans-serif;
 }
 
 
@@ -76,7 +76,7 @@ footer {
 /* For tablets: */
 .col-s-1 {width: 8.33%;}
 .col-s-2 {width: 16.66%;}
-.col-s-3 {width: 25%;}
+.col-s-3 {width: 100%;}
 .col-s-4 {width: 33.33%;}
 .col-s-5 {width: 41.66%;}
 .col-s-6 {width: 50%;}
@@ -117,4 +117,9 @@ footer {
     background-color: #b40000;
     color: #fff;
     padding: 15px;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
